@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Fortune in a Pot: write one kind, funny fortune for a windowsill houseplant."""
+"""Fortune in a Pot: write one kind, funny fortune for a windowsill houseplant.
+
+The fortune is a single fixed line of 110 characters, under the 120-character
+limit, so the output is identical on every run (fully deterministic).
+"""
 
 import os
 
